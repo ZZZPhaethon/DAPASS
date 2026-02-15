@@ -31,3 +31,28 @@ pip install mmcv-full==1.3.9 -f https://download.openmmlab.com/mmcv/dist/cu111/t
 pip install -r requirements.txt
 python setup.py develop --user
 # Optional: install apex follow: https://github.com/NVIDIA/apex
+```
+
+## Data Preparation
+
+Prepare datasets: 
+- [Cityscapes](https://www.cityscapes-dataset.com/)
+- [DensePASS](https://github.com/chma1024/DensePASS)
+- [Stanford2D3D](https://arxiv.org/abs/1702.01105)
+```
+datasets/
+├── cityscapes
+│   ├── gtFine
+│   └── leftImg8bit
+├── Stanford2D3D
+│   ├── area_1
+│   ├── area_2
+│   ├── area_3
+│   ├── area_4
+│   ├── area_5a
+│   ├── area_5b
+│   └── area_6
+├── DensePASS
+│   ├── gtFine
+│   └── leftImg8bit
+```
