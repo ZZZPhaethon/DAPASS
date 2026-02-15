@@ -20,6 +20,15 @@ This is the official PyTorch implementation of the following publication:
 - 2026-02-15: Code of Evaluation is available!
 - 2025-11-12: Paper was submitted to CVPR.
 
+## Requirements
+
+The code has been tested on:
+- Ubuntu 20.04
+- CUDA 11.2
+- Python 3.8.19
+- Pytorch 1.8.0
+- GeForce RTX 3090.
+
 ## Environments
 
 ```bash
