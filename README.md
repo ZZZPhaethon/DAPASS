@@ -20,3 +20,14 @@ This is the official PyTorch implementation of the following publication:
 - 2026-02-15: Code of Evaluation is available!
 - 2025-11-12: Paper was submitted to CVPR.
 
+## Environments
+
+```bash
+conda create -n trans4pass python=3.8
+conda activate trans4pass
+cd ~/path/to/trans4pass 
+conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch -c conda-forge
+pip install mmcv-full==1.3.9 -f https://download.openmmlab.com/mmcv/dist/cu111/torch1.8.0/index.html
+pip install -r requirements.txt
+python setup.py develop --user
+# Optional: install apex follow: https://github.com/NVIDIA/apex
