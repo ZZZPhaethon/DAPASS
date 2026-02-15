@@ -56,3 +56,13 @@ datasets/
 │   ├── gtFine
 │   └── leftImg8bit
 ```
+
+## TODO list
+
+- [x] Release training code
+- [x] Release evaluation code
+- [x] Release evaluation GT labels for the datasets tested in the paper
+- [x] Release text-query relevance visualization scripts (2D & 3D)
+- [ ] Release preprocessed datasets and pretrained models
+
+This repository is still under construction. Please feel free to open issues or submit pull requests. We appreciate all contributions to this project.
