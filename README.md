@@ -23,9 +23,9 @@ This is the official PyTorch implementation of the following publication:
 ## Environments
 
 ```bash
-conda create -n trans4pass python=3.8
-conda activate trans4pass
-cd ~/path/to/trans4pass 
+conda create -n DAPASS python=3.8
+conda activate DAPASS
+cd ~/path/to/DAPASS 
 conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch -c conda-forge
 pip install mmcv-full==1.3.9 -f https://download.openmmlab.com/mmcv/dist/cu111/torch1.8.0/index.html
 pip install -r requirements.txt
