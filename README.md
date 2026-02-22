@@ -17,8 +17,9 @@ This is the official PyTorch implementation of the following publication:
 
 ## Update
 
+- 2026-02-22: The paper was accepted to CVPR26!
 - 2026-02-15: Code of Evaluation is available!
-- 2025-11-12: Paper was submitted to CVPR.
+- 2025-11-12: Paper was submitted to CVPR26.
 
 ## Requirements
 
