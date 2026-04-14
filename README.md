@@ -66,6 +66,17 @@ datasets/
 │   ├── gtFine
 │   └── leftImg8bit
 ```
+## Citations
+
+If you find this project helpful, please consider citing the following paper:
+```
+@article{chang2026denoise,
+  title={Denoise and Align: Towards Source-Free UDA for Robust Panoramic Semantic Segmentation},
+  author={Chang, Yaowen and Cao, Zhen and Zheng, Xu and Mi, Xiaoxin and Dong, Zhen},
+  journal={arXiv preprint arXiv:2603.25131},
+  year={2026}
+}
+```
 
 ## TODO list
 
